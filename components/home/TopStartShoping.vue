@@ -159,7 +159,7 @@
 .first-section {
   width: 100%;
   background-color: #f6f5ff;
-  height: 46rem;
+  height: 39rem;
 }
 .first-paragraph {
   font-family: 'Clash Display';
