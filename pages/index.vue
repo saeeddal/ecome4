@@ -22,45 +22,26 @@
         </button>
       </artcle>
       <artcle class="flex flex-col">
-        <div class="rotated-opacity flex-row ">
-          <svg style="width: 28rem; height: 39rem">
-            <rect
-              x="0"
-              y="0"
-              rx="30"
-              ry="30"
-              style="
-                fill: #4b41a1;
-                stroke: none;
-                stroke-width: 20;
-                width: 28rem;
-                height: 39rem;
-                opacity: 0.2;
-              "
-            />
-          </svg>
-        </div>
-        <div class="rotated flex-row">
-          <svg style="width: 28rem; height: 39rem" overflow="hidden">
-            <rect
-              x="0"
-              y="0"
-              rx="30"
-              ry="30"
-              style="
-                fill: #4b41a1;
-                stroke-width: 20;
-                width: 28rem;
-                height: 39rem;
-              "
-            />
-          </svg>
-        </div>
+        <div class="rotated flex-row"></div>
+        <div class="rotated-opacity flex-row"></div>
 
         <div class="first-offer-box">
           <span class="offer-text--title">offer</span>
           <span class="offer-text--main">20% OFF</span>
           <span class="offer-text--footer"> 10 amazing products </span>
+        </div>
+        <div>
+          <img
+            src="@/assets/images/logo/buyer.png"
+            style="
+              width: 32vw;
+              height: 22vw;
+              margin-top: 18rem;
+              margin-left: 4vw;
+              z-index: 4;
+              position: absolute;
+            "
+          />
         </div>
       </artcle>
     </section>
@@ -85,7 +66,7 @@
   text-transform: capitalize;
   color: #000000;
   margin-left: 100px;
-  margin-top: 12rem;
+  margin-top: 10rem;
 }
 .second-paraghraph {
   font-family: 'Roboto';
@@ -95,7 +76,7 @@
   line-height: 22px;
   color: #525252;
   margin-left: 100px;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .button-section-1 {
   width: 219px;
@@ -104,7 +85,7 @@
   background: #5f57a9;
   border-radius: 50px;
   margin-left: 100px;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .text-button-section-1 {
   width: 128px;
@@ -146,7 +127,7 @@
 .first-offer-box {
   width: 181px;
   height: 97px;
-  margin-left: 42px;
+  margin-left: 1vw;
   position: absolute;
   top: 150px;
   background: #eda0a8;
@@ -183,21 +164,37 @@
   }
 }
 .rotated {
-  transform: rotate(12deg);
+  transform: rotate(14deg);
   z-index: 0;
   position: absolute;
-  margin-left: 100px;
+  margin-left: 8vw;
   overflow-y: hidden !important;
   overflow-x: hidden;
-  padding-bottom: 100px;
+  width: 27vw;
+  height: 32rem;
+
+  border-radius: 2rem;
+  background: linear-gradient(
+    121.66deg,
+    #4b429f -8.69%,
+    #645cac 33.53%,
+    #8666bf 73.28%,
+    #d47eea 105.46%
+  );
 }
 .rotated-opacity {
-  transform: rotate(30deg);
+  transform: rotate(28deg);
   z-index: 0;
   position: absolute;
-  margin-left: 80px;
+  margin-left: 6vw;
   overflow-y: hidden !important;
   overflow-x: hidden;
-  padding-bottom: 100px;
+  padding-bottom: 8vw;
+  width: 30vw;
+  height: 30rem;
+  background-color: #4b41a1;
+  border-radius: 2rem;
+  opacity: 0.1;
+  margin-top: -3rem;
 }
 </style>
