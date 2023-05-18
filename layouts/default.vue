@@ -22,7 +22,7 @@
         <span class="ml-1 global"> global(en)</span>
         <img
           src="@/assets/images/logo/openArrow.png"
-          style="height: 0.31rem; width: 0.68rem;margin-left: 0.3rem;"
+          style="height: 0.31rem; width: 0.68rem; margin-left: 0.3rem"
         />
         <img
           src="@/assets/images/logo/person.png"
@@ -47,10 +47,6 @@
   </div>
 </template>
 <script setup lang="ts">
-import logo from '@/assets/images/logo/logo_1.png';
-import globe from '@/assets/images/logo/globe.png';
-import heart from '@/assets/images/logo/heart.png';
-import person from '@/assets/images/logo/person.png';
 const lang = ref('en');
 const options = ref(['fa', 'en']);
 </script>
@@ -58,10 +54,16 @@ const options = ref(['fa', 'en']);
 footer {
   background-color: gray;
   color: aliceblue;
+  position: absolute;
+  z-index: 10;
+  width: 100% !important;
 }
 header {
-  background: #d7d7d7;
+  background-color: #d7d7d7;
   height: 7rem;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
 }
 a {
   font-family: 'Poppins';
