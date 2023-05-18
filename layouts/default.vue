@@ -3,7 +3,7 @@
     <header class="flex justify-between items-center">
       <nav class="flex gap-4 items-center" style="margin-left: 5vw">
         <img
-          src="@/assets/images/logo/logo_1.png"
+          src="@/assets/images/header/logo_1.png"
           style="height: 2.5rem; width: 7.5rem"
           class="flex md:ml-8 sm:ml-1 xs:ml-1"
         />
@@ -15,22 +15,22 @@
       </nav>
       <nav class="flex items-center" style="margin-right: 5vw">
         <img
-          src="@/assets/images/logo/globe.png"
+          src="@/assets/images/header/globe.png"
           style="height: 1.7rem; width: 1.7rem"
           class="md:ml-4 sm:ml-2"
         />
         <span class="ml-1 global"> global(en)</span>
         <img
-          src="@/assets/images/logo/openArrow.png"
+          src="@/assets/images/header/openArrow.png"
           style="height: 0.31rem; width: 0.68rem; margin-left: 0.3rem"
         />
         <img
-          src="@/assets/images/logo/person.png"
+          src="@/assets/images/header/person.png"
           style="height: 1.3rem; width: 1.2rem"
           class="ml-4"
         />
         <img
-          src="@/assets/images/logo/heart.png"
+          src="@/assets/images/header/heart.png"
           style="height: 1.2rem; width: 1.3rem"
           class="ml-4"
         />
@@ -38,10 +38,6 @@
     </header>
     <slot />
     <footer>
-      <nuxt-img
-        sizes="sm:500vw md:70vw lg:400px"
-        src="/images/logo/logo_1.png"
-      />
       <h3>this is main footer from layout</h3>
     </footer>
   </div>

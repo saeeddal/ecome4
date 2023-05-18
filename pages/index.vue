@@ -1,7 +1,7 @@
 <template>
   <main>
     <section class="grid grid-cols-2 gap-2 first-section">
-      <artcle>
+      <article>
         <div class="first-paragraph">
           It takes more than <br />
           one sale to<br />
@@ -16,13 +16,72 @@
         <button class="button-section-1 flex items-center gap-4 justify-center">
           <span class="text-button-section-1 ml-2"> Start Shopping </span>
           <img
-            src="@/assets/images/logo/start_shoping.png"
+            src="@/assets/images/home/start_shoping.png"
             style="height: 5px; width: 11px; margin-left: 10px"
           />
         </button>
-      </artcle>
-      <artcle class="flex flex-col">
-        <div class="rotated flex-row"></div>
+      </article>
+      <article class="flex flex-col">
+        <div class="rotated flex-row">
+          <svg height="4000" width="400">
+            <!-- <path>
+              <img
+                src="@/assets/images/home/persent.png"
+                style="height: 10px; width: 150px"
+              />
+            </path> -->
+            <circle
+              cx="250"
+              cy="350"
+              r="200"
+              stroke="#B1A6FF"
+              stroke-width="1"
+              fill="none"
+            />
+
+            <circle
+              cx="250"
+              cy="350"
+              r="180"
+              stroke="#B1A6FF"
+              stroke-width="1"
+              fill="none"
+            />
+            <circle
+              cx="250"
+              cy="350"
+              r="160"
+              stroke="#B1A6FF"
+              stroke-width="1"
+              fill="none"
+            />
+            <circle
+              cx="250"
+              cy="350"
+              r="140"
+              stroke="#B1A6FF"
+              stroke-width="1"
+              fill="none"
+            />
+            <circle
+              cx="250"
+              cy="350"
+              r="120"
+              stroke="#B1A6FF"
+              stroke-width="1"
+              fill="none"
+            />
+
+            <circle
+              cx="250"
+              cy="350"
+              r="100"
+              stroke="#B1A6FF"
+              stroke-width="1"
+              fill="none"
+            />
+          </svg>
+        </div>
         <div class="rotated-opacity flex-row"></div>
 
         <div class="first-offer-box">
@@ -32,23 +91,73 @@
         </div>
         <div>
           <img
-            src="@/assets/images/logo/buyer.png"
+            src="@/assets/images/home/persent.png"
             style="
-              width: 32vw;
-              height: 22vw;
-              margin-top: 18rem;
-              margin-left: 4vw;
+              width: 1vw;
+              height: 1vw;
+              margin-top: 16rem;
+              margin-left: 13vw;
               z-index: 4;
               position: absolute;
             "
           />
+          <img
+            src="@/assets/images/home/persent.png"
+            style="
+              width: 2vw;
+              height: 1vw;
+              margin-top: 14rem;
+              margin-left: 27vw;
+              z-index: 4;
+              position: absolute;
+            "
+          />
+          <img
+            src="@/assets/images/home/buyer.png"
+            style="
+              width: 32vw;
+              height: 22vw;
+              margin-top: 18rem;
+              margin-left: 6vw;
+              z-index: 4;
+              position: absolute;
+            "
+          />
+          <span
+            class="dot"
+            style="
+              width: 1vw;
+              height: 1vw;
+              margin-top: 18rem;
+              margin-left: 13vw;
+              z-index: 4;
+              background-color: #de5967;
+              border-radius: 50%;
+              position: absolute;
+            "
+          ></span>
+          <span
+            class="dot"
+            style="
+              width: 1vw;
+              height: 1vw;
+              margin-top: 12rem;
+              margin-left: 24vw;
+              z-index: 4;
+              background-color: #eda0a8;
+              border-radius: 50%;
+              position: absolute;
+            "
+          ></span>
         </div>
-      </artcle>
+      </article>
     </section>
   </main>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import path from 'path';
+</script>
 
 <style scoped lang="scss">
 .first-section {
