@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  footer {
+    @apply mb-10 text-center bg-gray-light p-7;
+  }
+}
+
+/* @layer components {
+  .btn2 {
+    @apply bg-green-400;
+  }
+} */
+
+/* @layer utilities {
+  .filter-none {
+    filter: none;
+  }
+  .filter-grayscale {
+    filter: grayscale(100%);
+  }
+} */
