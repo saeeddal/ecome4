@@ -88,7 +88,7 @@
         <span class="offer-text--main">20% OFF</span>
         <span class="offer-text--footer"> 10 amazing products </span>
       </div>
-      <div>
+      <div style="position: relative;height: 39rem;">
         <img
           src="@/assets/images/home/persent.png"
           style="
@@ -115,11 +115,12 @@
           src="@/assets/images/home/buyer.png"
           style="
             width: 32vw;
-            height: 22vw;
-            margin-top: 18rem;
+            height: 19vw;
+            margin-top: 100%;
             margin-left: 6vw;
             z-index: 4;
             position: absolute;
+            bottom: 0;
           "
         />
         <span
