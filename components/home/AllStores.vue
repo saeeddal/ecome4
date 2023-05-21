@@ -1,6 +1,6 @@
 <template>
   <div class="flex font-mono text-2xl justify-start font-bold ml-40">
-    Shop by Category
+    All Of Store
   </div>
 
   <div
@@ -8,20 +8,19 @@
   >
     <button
       style="
-        margin-right: -1.5rem;
+        margin-right: -2rem;
         z-index: 4;
         border-radius: 50%;
         background-color: #d1d1d1;
         height: 2rem;
         width: 2rem;
-        text-align: center;
       "
       class="flex flex-col justify-center items-center"
     >
       <img src="@/assets/images/home/next.png" />
     </button>
-    <ShopByCategoryCard
-      v-for="item in 6"
+    <StoreCard
+      v-for="item in 3"
       :image-url="images[item - 1]"
       :imageText="'Glasess'"
       :key="item"
@@ -34,17 +33,18 @@
         background-color: #d1d1d1;
         height: 2rem;
         width: 2rem;
-        text-align: center;
       "
       class="flex flex-col justify-center items-center"
     >
       <img src="@/assets/images/home/Previous.png" />
     </button>
+    <SaleTimerCard />
   </div>
 </template>
 
 <script setup lang="ts">
-import ShopByCategoryCard from '@/components/home/ShopByCategoryCard.vue';
+import StoreCard from '@/components/home/StoreCard.vue';
+import SaleTimerCard from '@/components/home/SaleTimerCard.vue';
 const images = [
   'laptop.png',
   'cat1.png',
