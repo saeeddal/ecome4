@@ -179,5 +179,6 @@
   line-height: 33px;
   /* identical to box height, or 183% */
   letter-spacing: 0.03em;
+  font-weight: bold;
 }
 </style>

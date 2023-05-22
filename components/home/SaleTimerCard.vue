@@ -47,5 +47,6 @@
   letter-spacing: 0.03em;
   color: white;
   margin-top: 1rem;
+  font-weight: bold;
 }
 </style>
