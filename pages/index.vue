@@ -6,6 +6,7 @@
     <ShopCategory />
     <AllStores />
     <Upto />
+    <TopStore />
   </main>
 </template>
 <script setup lang="ts">
@@ -14,4 +15,5 @@ import OffBoxes from '@/components/home/OffBoxes.vue';
 import ShopCategory from '@/components/home/ShopByCategory.vue';
 import AllStores from '@/components/home/AllStores.vue';
 import Upto from '@/components/home/Upto.vue';
+import TopStore from '@/components/home/TopStore.vue';
 </script>
