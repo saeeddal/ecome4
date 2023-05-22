@@ -4,7 +4,7 @@
   </div>
 
   <div
-    class="flex justify-between mx-10 items-center space-x-4 lg:mt-10 md:mt-4 mt-20 mb-20"
+    class="flex justify-around mx-40 items-center space-x-4 lg:mt-10 md:mt-4 mt-20 mb-20"
   >
     <button
       style="
