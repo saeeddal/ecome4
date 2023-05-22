@@ -4,7 +4,7 @@
   </div>
 
   <div
-    class="flex justify-center items-center space-x-4 lg:mt-10 md:mt-4 mt-10 mb-10"
+    class="flex justify-center items-center space-x-3 lg:mt-10 md:mt-4 mt-10 mb-10"
   >
     <button
       style="
@@ -46,12 +46,12 @@
 import StoreCard from '@/components/home/StoreCard.vue';
 import SaleTimerCard from '@/components/home/SaleTimerCard.vue';
 const images = [
-  'laptop.png',
-  'cat1.png',
-  'chair.png',
-  'desk.png',
-  'laptop.png',
-  'cat1.png',
+  'shoesSlider.png',
+  'shoesSlider.png',
+  'shoesSlider.png',
+  'shoesSlider.png',
+  'shoesSlider.png',
+  'shoesSlider.png',
 ];
 </script>
 
