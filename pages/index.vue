@@ -10,6 +10,7 @@
     <StoreNumberOne />
     <Furniture />
     <Copuns />
+    <TopBrands />
   </main>
 </template>
 <script setup lang="ts">
@@ -22,4 +23,5 @@ import TopStore from '@/components/home/TopStore.vue';
 import StoreNumberOne from '@/components/home/StoreNumberOne.vue';
 import Furniture from '@/components/home/Furniture.vue';
 import Copuns from '@/components/home/Copuns.vue';
+import TopBrands from '@/components/home/TopBrands.vue';
 </script>
