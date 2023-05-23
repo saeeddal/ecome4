@@ -69,16 +69,13 @@
 }
 .image-box span {
   position: absolute;
-  top: 10rem;
-  left: 10rem;
+  top: 6rem;
+  left: 4rem;
   font-family: 'Clash Display';
   font-style: normal;
-  font-weight: 500;
-  font-size: 2.5rem;
-  line-height: 2.4rem;
+  font-weight: 400;
+  font-size: 2rem;
   /* identical to box height, or 100% */
-  display: flex;
-  align-items: center;
   text-transform: capitalize;
   color: #ffffff;
   font-weight: bold;

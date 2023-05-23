@@ -13,7 +13,7 @@
         veniam
       </div>
       <button class="button-section-1 flex items-center gap-4 justify-center">
-        Start Shopping &nbsp;&nbsp;&nbsp;&nbsp; >
+        See all Stores &nbsp;&nbsp;&nbsp;&nbsp; >
       </button>
     </article>
     <article class="flex flex-col">

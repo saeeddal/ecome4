@@ -15,6 +15,20 @@
 <script setup lang="ts"></script>
 
 <style scoped>
+.brand-text {
+  background: linear-gradient(
+    90deg,
+    #4b429f 0.65%,
+    #604caa 9.72%,
+    #7455b5 18.32%,
+    #8b5fc2 28.35%,
+    #b06fd6 37.42%,
+    #d47eea 46.49%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 .button-section-1 {
   width: 20rem;
   height: 3rem;
@@ -29,7 +43,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 33px;
   /* identical to box height, or 183% */
 
