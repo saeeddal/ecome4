@@ -13,11 +13,7 @@
         veniam
       </div>
       <button class="button-section-1 flex items-center gap-4 justify-center">
-        <span class="text-button-section-1 ml-2"> Start Shopping </span>
-        <img
-          src="@/assets/images/home/start_shoping.png"
-          style="height: 0.7rem; width: 0.5rem; margin-left: 10px; color: white"
-        />
+        Start Shopping &nbsp;&nbsp;&nbsp;&nbsp; >
       </button>
     </article>
     <article class="flex flex-col">
@@ -88,7 +84,7 @@
         <span class="offer-text--main">20% OFF</span>
         <span class="offer-text--footer"> 10 amazing products </span>
       </div>
-      <div style="position: relative;height: 39rem;">
+      <div style="position: relative; height: 39rem">
         <img
           src="@/assets/images/home/persent.png"
           style="
@@ -185,25 +181,25 @@
   margin-top: 1rem;
 }
 .button-section-1 {
-  width: 219px;
-  height: 48px;
+  width: 20rem;
+  height: 3rem;
   /* primary */
   background: #5f57a9;
-  border-radius: 50px;
-  margin-left: 100px;
+  border-radius: 3rem;
   margin-top: 2rem;
-}
-.text-button-section-1 {
-  width: 128px;
-  height: 33px;
+  text-align: center;
+  color: white;
+  margin-bottom: 1rem;
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 33px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 2rem;
   /* identical to box height, or 183% */
+  margin-left: 5rem;
   letter-spacing: 0.03em;
   text-transform: capitalize;
+
   color: #ffffff;
 }
 .successfull-text {
