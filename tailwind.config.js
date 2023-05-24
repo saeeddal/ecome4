@@ -23,5 +23,8 @@ export const theme = {
         borderRadius: {
             '4xl': '2rem',
         }
-    }
+    },
+    container: {
+        center: true,
+      },
 };

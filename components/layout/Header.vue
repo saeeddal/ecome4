@@ -1,12 +1,12 @@
 <template>
-  <header class="flex justify-between items-center">
+  <header class="flex justify-between items-center container">
     <nav class="flex gap-4 items-center" style="margin-left: 5vw">
       <img
         src="@/assets/images/header/logo_1.png"
         style="height: 2.5rem; width: 7.5rem"
         class="flex md:ml-8 sm:ml-1 xs:ml-1"
       />
-      <NuxtLink to="/" class="ml-5">home </NuxtLink>
+      <NuxtLink to="/" class="ml-5">Home </NuxtLink>
       <NuxtLink to="/about" class="ml-5">Offers </NuxtLink>
       <NuxtLink to="/about" class="ml-5">Coupons </NuxtLink>
       <NuxtLink to="/about" class="ml-5">Stores </NuxtLink>
@@ -44,23 +44,21 @@ const options = ref(['fa', 'en']);
 
 <style scoped lang="scss">
 header {
-  background-color: #d7d7d7;
+  background-color: #f7f7f7;
   height: 7rem;
-  position: absolute;
   z-index: 10;
-  width: 100%;
 }
 a {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.2rem;
-  line-height: 2.5px;
+  line-height: 0.2rem;
   letter-spacing: -0.02em;
   color: #000000;
 }
 .global {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;

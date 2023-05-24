@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <section style="margin-top: 4rem" class="mx-md">
       <div class="flex justify-center">
         <div class="exclusive-title">
@@ -12,9 +12,7 @@
           to buy from our huge collection
         </div>
       </div>
-      <div class="flex justify-center">
-        <img src="/images/home//Arrow07.png" class="arrow-image" />
-      </div>
+
       <div class="flex justify-center my-6">
         <div class="search-container flex items-center justify-around">
           <img
@@ -31,6 +29,7 @@
             "
             placeholder="Whereas recognition of the inherent dignity"
           />
+
           <button
             style="
               background-color: #5f57a9;
@@ -57,6 +56,7 @@
             </span>
           </button>
         </div>
+        <img src="/images/home//Arrow07.png" class="arrow-image" />
       </div>
     </section>
   </div>
@@ -123,9 +123,9 @@
   margin-top: 0.4rem;
 }
 .arrow-image {
-  height: 8vw;
-  width: 6vw;
-  margin-left: 46vw;
-  margin-top: -5rem;
+  height: 6rem;
+  width: 6rem;
+  margin-left: -1rem;
+  margin-top: -6rem;
 }
 </style>

@@ -1,14 +1,13 @@
 <template>
-  <div>
+  <div class="container">
     <Header />
     <slot />
-    <footer>
-      <h3>this is main footer from layout</h3>
-    </footer>
+    <Footer />
   </div>
 </template>
 <script setup lang="ts">
 import Header from '@/components/layout/Header.vue';
+import Footer from '@/components/layout/footer.vue';
 </script>
 <style scoped lang="scss">
 footer {
@@ -16,6 +15,6 @@ footer {
   color: aliceblue;
   position: absolute;
   z-index: 10;
-  width: 100% !important;
+  // width: 100% !important;
 }
 </style>

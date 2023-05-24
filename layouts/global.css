@@ -15,7 +15,21 @@
      
      format("truetype");
 }
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+     url(/assets/css/poppins/Poppins-Black.ttf)   
+     url(/assets/css/poppins/Poppins-Bold.ttf)   
+     url(/assets/css/poppins/Poppins-Regular.ttf)   
+     url(/assets/css/poppins/Poppins-Medium.ttf)   
+     url(/assets/css/poppins/Poppins-SemiBold.ttf)   
+     url(/assets/css/poppins/Poppins-Light.ttf)   
+     url(/assets/css/poppins/Poppins-Thin.ttf)   
+
+}
 html{
     font-family:Clash Display ;
     font-family:Roboto ;
+    font-family:Poppins ;
 }
+
