@@ -19,7 +19,7 @@
 
 <style lang="scss" scoped>
 .shop-now {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -31,7 +31,7 @@
   font-weight: bold;
 }
 .upto-text {
-  font-family: 'Clash Display',sans-serif;
+  font-family: 'Clash Display', sans-serif;
   font-style: normal;
   font-size: 4rem;
   line-height: 2.5rem;
@@ -40,7 +40,7 @@
   margin-top: 4rem;
 }
 .persent-off-text {
-  font-family: 'Clash Display',sans-serif;
+  font-family: 'Clash Display', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 4.3rem;
@@ -49,7 +49,7 @@
   color: #ffffff;
 }
 .caption-upto {
-  font-family: 'Clash Display',sans-serif;
+  font-family: 'Clash Display', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2.5rem;

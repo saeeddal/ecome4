@@ -159,7 +159,7 @@
   height: 39rem;
 }
 .first-paragraph {
-  font-family: 'Clash Display',sans-serif;
+  font-family: 'Clash Display', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -171,7 +171,7 @@
   margin-top: 10rem;
 }
 .second-paraghraph {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -190,7 +190,7 @@
   text-align: center;
   color: white;
   margin-bottom: 1rem;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.2rem;
@@ -236,7 +236,7 @@
   border-radius: 15px 15px 0px 15px;
 }
 .offer-text {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   /* identical to box height, or 157% */
   display: block;

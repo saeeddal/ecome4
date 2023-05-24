@@ -43,7 +43,7 @@
           >
             <span
               style="
-                font-family: 'Roboto';
+                font-family: 'Roboto', sans-serif;
                 font-style: normal;
                 font-weight: 500;
                 font-size: 1.2rem;
@@ -89,7 +89,7 @@
   background-clip: text;
 }
 .exclusive-caption {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -103,7 +103,7 @@
   border-radius: 15px;
 }
 ::placeholder {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -113,7 +113,7 @@
 }
 .search-caption {
   width: 40vw;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;

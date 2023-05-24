@@ -45,7 +45,7 @@ const props = defineProps({
   max-height: 30rem;
 }
 .persent-copun {
-  font-family: 'Clash Display',sans-serif;
+  font-family: 'Clash Display', sans-serif;
   font-size: 3rem;
   line-height: 2rem;
   letter-spacing: -0.02em;
@@ -57,7 +57,8 @@ const props = defineProps({
   width: 0.6rem;
 }
 .text-icon {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif, sans-serif, sans-serif, sans-serif,
+    sans-serif, sans-serif, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;

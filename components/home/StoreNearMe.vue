@@ -40,7 +40,7 @@
   color: white;
   margin-bottom: 2rem;
 
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1rem;

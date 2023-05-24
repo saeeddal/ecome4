@@ -21,7 +21,7 @@
 
 <style lang="scss" scoped>
 .shop-now {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -33,7 +33,7 @@
   font-weight: bold;
 }
 .upto-text {
-  font-family: 'Clash Display',sans-serif;
+  font-family: 'Clash Display', sans-serif;
   font-style: normal;
   font-size: 4rem;
   line-height: 2.5rem;
