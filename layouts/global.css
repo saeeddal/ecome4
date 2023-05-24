@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Clash Display";
+    src: local("Clash Display"),
+     url(/assets/css/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Regular.ttf) 
+     url(/assets/css/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Bold.ttf) 
+     url(/assets/css/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Medium.ttf) 
+          format("truetype");
+}
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto"),
+     url(/assets/css/Roboto/Roboto-Regular.ttf)
+     url(/assets/css/Roboto/Roboto-Bold.ttf)
+     url(/assets/css/Roboto/Roboto-Medium.ttf)
+     
+     format("truetype");
+}
+html{
+    font-family:Clash Display ;
+    font-family:Roboto ;
+}

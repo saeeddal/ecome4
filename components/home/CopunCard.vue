@@ -9,15 +9,15 @@
       <p class="text-sm">Men Black Top sleeveless gown</p>
       <div class="flex mt-4 mb-10 justify-between">
         <div class="flex space-x-1 items-center justify-center">
-          <img src="@/assets/images/home/location.png" class="image-icon" />
+          <img src="/images/home//location.png" class="image-icon" />
           <span class="text-icon">location</span>
         </div>
         <div class="flex space-x-1 items-center justify-center">
-          <img src="@/assets/images/home/watch.png" class="image-icon" />
+          <img src="/images/home//watch.png" class="image-icon" />
           <span class="text-icon">2 Days</span>
         </div>
         <div class="flex space-x-1 items-center justify-center">
-          <img src="@/assets/images/home/store.png" class="image-icon" />
+          <img src="/images/home//store.png" class="image-icon" />
           <span class="text-icon">Store Name</span>
         </div>
       </div>
@@ -45,7 +45,7 @@ const props = defineProps({
   max-height: 30rem;
 }
 .persent-copun {
-  font-family: 'Clash Display';
+  font-family: 'Clash Display',sans-serif;
   font-size: 3rem;
   line-height: 2rem;
   letter-spacing: -0.02em;

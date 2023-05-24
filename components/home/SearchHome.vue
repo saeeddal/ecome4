@@ -13,12 +13,12 @@
         </div>
       </div>
       <div class="flex justify-center">
-        <img src="@/assets/images/home/Arrow07.png" class="arrow-image" />
+        <img src="/images/home//Arrow07.png" class="arrow-image" />
       </div>
       <div class="flex justify-center my-6">
         <div class="search-container flex items-center justify-around">
           <img
-            src="@/assets/images/home/search.png"
+            src="/images/home//search.png"
             style="width: 1rem; height: 1rem; margin-left: 2rem"
           />
           <input
@@ -29,7 +29,7 @@
               width: 50%;
               height: 50%;
             "
-            placeholder="Search by Product, Store or Coupon"
+            placeholder="Whereas recognition of the inherent dignity"
           />
           <button
             style="
@@ -66,7 +66,7 @@
 
 <style scoped lang="scss">
 .exclusive-title {
-  font-family: 'Clash Display';
+  font-family: 'Clash Display', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 50px;

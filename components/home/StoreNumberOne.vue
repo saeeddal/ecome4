@@ -17,7 +17,7 @@
       "
       class="flex flex-col justify-center items-center"
     >
-      <img src="@/assets/images/home/next.png" />
+      <img src="/images/home//next.png" />
     </button>
     <StoreCardNumber
       v-for="item in 4"
@@ -36,7 +36,7 @@
       "
       class="flex flex-col justify-center items-center"
     >
-      <img src="@/assets/images/home/Previous.png" />
+      <img src="/images/home//Previous.png" />
     </button>
   </div>
 </template>

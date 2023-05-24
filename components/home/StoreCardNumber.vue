@@ -16,7 +16,7 @@
     <h3
       class="flex persent absolute text-2xl bg-[#DCD9FF] text-black-300 top-64 left-5"
     >
-      <img class="mx-1" src="@/assets/images/home/oclock.png" />
+      <img class="mx-1" src="/images/home//oclock.png" />
       2 Days
     </h3>
     <div class="ml-4 flex flex-col p-2">

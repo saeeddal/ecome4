@@ -5,7 +5,7 @@
   <div
     class="flex flex-col mx-20 mt-9 justify-center items-center top-brands-container"
   >
-    <img src="@/assets/images/home/storesNearMe.png" style="width: 100%" />
+    <img src="/images/home//storesNearMe.png" style="width: 100%" />
     <button class="button-section-1 flex items-center gap-4 justify-center">
       Start Shopping &nbsp;&nbsp;&nbsp;&nbsp; >
     </button>

@@ -2,7 +2,7 @@
   <section class="grid grid-cols-2 gap-2 first-section">
     <article>
       <div class="first-paragraph">
-        It takes more than <br />
+        It takes more than Display <br />
         one sale to<br />
         get
         <span class="successfull-text"> successful </span>
@@ -21,7 +21,7 @@
         <svg height="4000" width="400">
           <!-- <path>
               <img
-                src="@/assets/images/home/persent.png"
+                src="/images/home//persent.png"
                 style="height: 10px; width: 150px"
               />
             </path> -->
@@ -86,7 +86,7 @@
       </div>
       <div style="position: relative; height: 39rem">
         <img
-          src="@/assets/images/home/persent.png"
+          src="/images/home//persent.png"
           style="
             width: 1vw;
             height: 1vw;
@@ -97,7 +97,7 @@
           "
         />
         <img
-          src="@/assets/images/home/persent.png"
+          src="/images/home//persent.png"
           style="
             width: 2vw;
             height: 1vw;
@@ -108,7 +108,7 @@
           "
         />
         <img
-          src="@/assets/images/home/buyer.png"
+          src="/images/home//buyer.png"
           style="
             width: 32vw;
             height: 19vw;
@@ -159,7 +159,7 @@
   height: 39rem;
 }
 .first-paragraph {
-  font-family: 'Clash Display';
+  font-family: 'Clash Display',sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 50px;

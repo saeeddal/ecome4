@@ -7,19 +7,19 @@
     class="flex space-x-8 mt-9 justify-center items-center top-brands-container"
   >
     <div class="image-box">
-      <img src="@/assets/images/home/brand1.png" />
+      <img src="/images/home//brand1.png" />
       <span>Brand 1</span>
     </div>
     <div class="image-box">
-      <img src="@/assets/images/home/brand2.png" />
+      <img src="/images/home//brand2.png" />
       <span>Brand 1</span>
     </div>
     <div class="image-box">
-      <img src="@/assets/images/home/brand3.png" />
+      <img src="/images/home//brand3.png" />
       <span>Brand 1</span>
     </div>
     <div class="image-box">
-      <img src="@/assets/images/home/brand4.png" />
+      <img src="/images/home//brand4.png" />
       <span>Brand 1</span>
     </div>
   </div>
@@ -27,19 +27,19 @@
     class="flex space-x-8 mt-9 justify-center items-center top-brands-container"
   >
     <div class="image-box">
-      <img src="@/assets/images/home/brand3.png" />
+      <img src="/images/home//brand3.png" />
       <span>Brand 1</span>
     </div>
     <div class="image-box">
-      <img src="@/assets/images/home/brand2.png" />
+      <img src="/images/home//brand2.png" />
       <span>Brand 1</span>
     </div>
     <div class="image-box">
-      <img src="@/assets/images/home/brand1.png" />
+      <img src="/images/home//brand1.png" />
       <span>Brand 1</span>
     </div>
     <div class="image-box">
-      <img src="@/assets/images/home/brand4.png" />
+      <img src="/images/home//brand4.png" />
       <span>Brand 1</span>
     </div>
   </div>
@@ -71,7 +71,7 @@
   position: absolute;
   top: 6rem;
   left: 4rem;
-  font-family: 'Clash Display';
+  font-family: 'Clash Display', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;

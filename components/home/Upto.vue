@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center items-center bg-[#CAC2DD] mt-20">
-    <img src="@/assets/images/home/uptoGirl.png" class="h-full w-100 mt-20" />
+    <img src="/images/home//uptoGirl.png" class="h-full w-100 mt-20" />
     <div class="flex flex-col items-start">
       <div>
         <span class="upto-text">UP TO</span>
@@ -33,7 +33,7 @@
   font-weight: bold;
 }
 .upto-text {
-  font-family: 'Clash Display';
+  font-family: 'Clash Display',sans-serif;
   font-style: normal;
   font-size: 4rem;
   line-height: 2.5rem;
@@ -41,7 +41,7 @@
   color: #ffffff;
 }
 .persent-off-text {
-  font-family: 'Clash Display';
+  font-family: 'Clash Display', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 4.3rem;
@@ -50,7 +50,7 @@
   color: #ffffff;
 }
 .caption-upto {
-  font-family: 'Clash Display';
+  font-family: 'Clash Display', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2.5rem;

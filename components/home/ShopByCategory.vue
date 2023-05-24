@@ -18,7 +18,7 @@
       "
       class="flex flex-col justify-center items-center"
     >
-      <img src="@/assets/images/home/next.png" />
+      <img src="/images/home//next.png" />
     </button>
     <ShopByCategoryCard
       v-for="item in 6"
@@ -38,7 +38,7 @@
       "
       class="flex flex-col justify-center items-center"
     >
-      <img src="@/assets/images/home/Previous.png" />
+      <img src="/images/home//Previous.png" />
     </button>
   </div>
 </template>

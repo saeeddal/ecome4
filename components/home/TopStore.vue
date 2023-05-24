@@ -17,14 +17,14 @@
       "
       class="flex flex-col justify-center items-center"
     >
-      <img src="@/assets/images/home/next.png" />
+      <img src="/images/home//next.png" />
     </button>
-    <img src="@/assets/images/home/amazon.png" />
-    <img src="@/assets/images/home/ross.png" />
-    <img src="@/assets/images/home/electric.png" />
-    <img src="@/assets/images/home/onlineShop.png" />
-    <img src="@/assets/images/home/apple.png" />
-    <img src="@/assets/images/home/retail.png" />
+    <img src="/images/home//amazon.png" />
+    <img src="/images/home//ross.png" />
+    <img src="/images/home//electric.png" />
+    <img src="/images/home//onlineShop.png" />
+    <img src="/images/home//apple.png" />
+    <img src="/images/home//retail.png" />
 
     <button
       style="
@@ -37,7 +37,7 @@
       "
       class="flex flex-col justify-center items-center"
     >
-      <img src="@/assets/images/home/Previous.png" />
+      <img src="/images/home//Previous.png" />
     </button>
   </div>
 </template>

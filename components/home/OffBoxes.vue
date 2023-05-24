@@ -20,7 +20,7 @@
           </button>
         </div>
         <div class="flex lg:ml-10 items-center justify-center">
-          <img src="@/assets/images/home/cups.png" />
+          <img src="/images/home//cups.png" />
         </div>
       </div>
     </div>
@@ -45,7 +45,7 @@
           <button class="shop-now block text-left">
             Shop Now &nbsp;&nbsp;>
           </button>
-          <img class="mr-20" src="@/assets/images/home/shoes.png" />
+          <img class="mr-20" src="/images/home//shoes.png" />
         </div>
       </div>
     </div>
@@ -56,7 +56,7 @@
 
 <style lang="scss" scoped>
 .box {
-  font-family: 'Clash Display';
+  font-family: 'Clash Display', sans-serif;
   color: #ffffff;
   font-style: normal;
   letter-spacing: -0.02em;
@@ -109,8 +109,8 @@
 .thired-box {
   background: #f49fa7;
   height: 25rem;
-  font-family: 'Clash Display';
-  background-image: url(@/assets/images/home/girlWithBackGround.png);
+  font-family: 'Clash Display', sans-serif;
+  background-image: url(/images/home//girlWithBackGround.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
