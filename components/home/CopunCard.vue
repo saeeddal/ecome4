@@ -1,6 +1,6 @@
 <template>
   <div class="card flex flex-col rounded-t-full relative">
-    <img :src="'/_nuxt/assets/images/home/' + imageUrl" style="height: 20rem" />
+    <img :src="'/images/home/' + imageUrl" style="height: 20rem" />
     <div class="text-center bg-[#F6F5FF] py-10 -mt-2 persent-copun">
       45% OFF
     </div>
