@@ -2,7 +2,7 @@
   <div
     class="card flex flex-col bg-[#FBFBFB] space-y-2 rounded-t-full relative"
   >
-    <img :src="'/_nuxt/assets/images/home/' + imageUrl" style="height: 20rem" />
+    <img :src="'/images/home/' + imageUrl" style="height: 20rem" />
     <h3
       class="persent absolute text-2xl bg-[#DCD9FF] text-black-300 top-5 left-5"
     >

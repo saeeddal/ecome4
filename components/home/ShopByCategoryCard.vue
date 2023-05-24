@@ -1,12 +1,12 @@
 <template>
-    <div class="card flex flex-col justify-center rounded-lg">
-      <img :src="'/_nuxt/assets/images/home/' + imageUrl" />
-      <p
-        class="text-center bg-[#F6F5FF] pt-10 pb-6 -mt-5 rounded-b-2xl text-lg font-sans font-bold"
-      >
-        {{ imageText }}
-      </p>
-    </div>
+  <div class="card flex flex-col justify-center rounded-lg">
+    <img :src="'/images/home/' + imageUrl" />
+    <p
+      class="text-center bg-[#F6F5FF] pt-10 pb-6 -mt-5 rounded-b-2xl text-lg font-sans font-bold"
+    >
+      {{ imageText }}
+    </p>
+  </div>
 </template>
 
 <script setup lang="ts">
