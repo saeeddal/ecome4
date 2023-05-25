@@ -17,7 +17,7 @@
       </button>
     </article>
     <article>
-      <img src="images/home/buyerWith.png" />
+      <img src="/images/home/buyerWith.png" />
     </article>
   </section>
 </template>
