@@ -21,19 +21,14 @@
       <span class="ml-1"> global(en)</span>
       <img
         src="@/assets/images/header/openArrow.png"
-        style="height: 0.31rem; width: 0.68rem; margin-left: 0.3rem"
         class="h-[0.31rem] w-[0.68rem] ml-[0.4rem]"
-
       />
       <img
         src="@/assets/images/header/person.png"
-        style="height: 1.3rem; width: 1.2rem"
         class="h-[1.3rem] w-[1.2rem] ml-4"
-
       />
       <img
         src="@/assets/images/header/heart.png"
-        style="height: 1.2rem; width: 1.3rem"
         class="h-[1.2rem] w-[1.3rem] ml-[1rem]"
       />
     </nav>
