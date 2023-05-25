@@ -1,11 +1,9 @@
 <template>
-  <header
-    class="flex justify-between items-center container bg-[#f7f7f7] h-[7rem]"
-  >
-    <nav class="flex gap-4 items-center ml-[2rem]">
+  <header class="flex justify-between items-center container bg-[#f7f7f7] h-28">
+    <nav class="flex gap-4 items-center ml-8">
       <img
         src="@/assets/images/header/logo_1.png"
-        class="flex md:ml-8 sm:ml-1 xs:ml-1 h-[2.5rem] w-[7.5rem]"
+        class="md:ml-8 sm:ml-1 xs:ml-1 h-10 w-30"
       />
       <NuxtLink to="/" class="font-Poppins ml-5">Home </NuxtLink>
       <NuxtLink to="/about" class="font-Poppins ml-5">Offers </NuxtLink>
@@ -16,21 +14,12 @@
     <nav class="flex items-center" style="margin-right: 5vw">
       <img
         src="@/assets/images/header/globe.png"
-        class="md:ml-4 sm:ml-2 h-[1.7rem] w-[1.7rem]"
+        class="md:ml-4 sm:ml-2 h-6.8 w-6.8"
       />
       <span class="ml-1"> global(en)</span>
-      <img
-        src="@/assets/images/header/openArrow.png"
-        class="h-[0.31rem] w-[0.68rem] ml-[0.4rem]"
-      />
-      <img
-        src="@/assets/images/header/person.png"
-        class="h-[1.3rem] w-[1.2rem] ml-4"
-      />
-      <img
-        src="@/assets/images/header/heart.png"
-        class="h-[1.2rem] w-[1.3rem] ml-[1rem]"
-      />
+      <img src="@/assets/images/header/openArrow.png" class="h-2 w-2 ml-2" />
+      <img src="@/assets/images/header/person.png" class="h-5 w-5 ml-4" />
+      <img src="@/assets/images/header/heart.png" class="h-5 w-5 ml-4" />
     </nav>
   </header>
 </template>
