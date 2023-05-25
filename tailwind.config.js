@@ -12,8 +12,14 @@ export const theme = {
         'gray-light': '#d3dce6',
     },
     fontFamily: {
-        sans: ['Graphik', 'sans-serif'],
-        serif: ['Merriweather', 'serif'],
+        // sans: ['Graphik', 'sans-serif'],
+        // serif: ['Merriweather', 'serif'],
+        Roboto: ['Roboto', 'sans-serif'],
+        Clash: ['Clash Display', 'sans-serif'] ,
+        Poppins: ['Poppins', 'sans-serif'] 
+        // Ensure fonts with spaces have " " surrounding it.
+   
+
     },
     extend: {
         spacing: {

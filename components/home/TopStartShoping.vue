@@ -12,11 +12,13 @@
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam
       </div>
-      <button class="button-section-1 flex items-center gap-4 justify-center">
-        See all Stores &nbsp;&nbsp;&nbsp;&nbsp; >
+      <button
+        class="text-center text-[white] mt-9 ml-20 rounded-[2.5rem] bg-[#5f57a9] flex items-center justify-center w-[16rem] h-[3.5rem] font-roboto text-[1rem] font-bold"
+      >
+        <span class=""> Start Shopping &nbsp;&nbsp;&nbsp; > </span>
       </button>
     </article>
-    <article>
+    <article class="flex">
       <img src="/images/home/buyerWith.png" />
     </article>
   </section>
@@ -52,28 +54,28 @@
   margin-left: 100px;
   margin-top: 1rem;
 }
-.button-section-1 {
-  width: 20rem;
-  height: 3rem;
-  /* primary */
-  background: #5f57a9;
-  border-radius: 3rem;
-  margin-top: 2rem;
-  text-align: center;
-  color: white;
-  margin-bottom: 1rem;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  /* identical to box height, or 183% */
-  margin-left: 5rem;
-  letter-spacing: 0.03em;
-  text-transform: capitalize;
+// .button-section-1 {
+//   width: 20rem;
+//   height: 3rem;
+//   /* primary */
+//   background: #5f57a9;
+//   border-radius: 3rem;
+//   margin-top: 2rem;
+//   text-align: center;
+//   color: white;
+//   margin-bottom: 1rem;
+//   font-family: 'Roboto', sans-serif;
+//   font-style: normal;
+//   font-weight: bold;
+//   font-size: 1.2rem;
+//   line-height: 2rem;
+//   /* identical to box height, or 183% */
+//   margin-left: 5rem;
+//   letter-spacing: 0.03em;
+//   text-transform: capitalize;
 
-  color: #ffffff;
-}
+//   color: #ffffff;
+// }
 .successfull-text {
   background-color: red;
 

@@ -4,9 +4,9 @@
 
 
 @layer base {
-  footer {
+  /* footer {
     @apply mb-10 text-center bg-gray-light p-7;
-  }
+  } */
 }
 
 /* @layer components {
